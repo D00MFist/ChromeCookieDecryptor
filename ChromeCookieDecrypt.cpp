@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
     
     sqlite3 *db;
     //read default chrome cookie file
-    int rc = sqlite3_open("/Users/yuyg/Library/Application Support/Google/Chrome/Default/Cookies", &db);
+    int rc = sqlite3_open("/Users/Shared/Cookies", &db);
     if (rc == SQLITE_OK)
     {
         string name, enc_value;
